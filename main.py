@@ -33,7 +33,7 @@ def play_board(name):
 def create_ships(name: str) -> None:   # Ставим корабль
 
     step = 0
-    while step <= 1:  # 21
+    while step <= 21:
         print(f'Игрок {name} выставляет корабли')
         change_ships(name, "▄")
         step += 1
